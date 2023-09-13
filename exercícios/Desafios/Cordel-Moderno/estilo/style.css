@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black url('../imagens/passarinho.jpg') center center / cover no-repeat fixed;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > p > a {
+    color: white;
+}
+
+main {
+    background-color: transparent;
+    margin: auto;
+}
+
+#conteiner-1 {
+    margin-top: 0;
+}
+
+.conteiner {
+    background-color: white;
+    min-width: 450px;
+    max-width: 100%;
+    padding: 30px;
+}
+
+div > p {
+    text-align: justify;
+    font-size: 2em;
+}
