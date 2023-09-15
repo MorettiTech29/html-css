@@ -6,46 +6,47 @@
     box-sizing: border-box;
 }
 
-body {
-    background: black url('../imagens/passarinho.jpg') center center / cover no-repeat fixed;
-}
-
 header {
     background-color: black;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2%;
+    height: 20vh;
+    text-align: center;
+    padding: 50px;
 }
 
 header > h1 {
-    text-align: center;
-}
-
-header > p {
-    text-align: center;
-}
-
-header > p > a {
+    font-size: 4em;
     color: white;
 }
 
-main {
-    background-color: transparent;
-    margin: auto;
+header > p {
+    color: gray;
 }
 
-#conteiner-1 {
-    margin-top: 0;
+header > p > a {
+    text-decoration: none;
+    color: white;
 }
 
-.conteiner {
-    background-color: white;
-    min-width: 450px;
-    max-width: 100%;
-    padding: 30px;
+section {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-div > p {
-    text-align: justify;
-    font-size: 2em;
+section:nth-of-type(2) {
+    background-image: url(../imagens/passarinho.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(4) {
+    background-image: url(../imagens/papel.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(6) {
+    background-image: url(../imagens/passarinho.jpg);
+    height: 600px;
 }
